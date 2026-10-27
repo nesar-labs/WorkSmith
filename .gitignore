@@ -1,0 +1,7 @@
+node_modules/
+.env
+users.json
+*.tmp
+appointments.json
+serviceAccountKey.json
+nearwise-*.json

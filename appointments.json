@@ -1,0 +1,115 @@
+{
+  "appointments": [
+    {
+      "id": "4e2e6311-7e29-421b-86b6-fd90ebd525c1",
+      "userId": "a61843f0-046b-42cc-be8e-1410fe660096",
+      "customerName": "Nesar",
+      "customerEmail": "nesar.minein@gmail.com",
+      "customerPhone": "",
+      "professional": {
+        "workerId": "af772223-3bc4-40c4-9fef-1e0c5d33fdef",
+        "workerEmail": "worksmith.help@gmail.com",
+        "name": "WorkSmith",
+        "category": "WorkSmith",
+        "specialty": "Electrician",
+        "phone": "9779711530",
+        "address": ""
+      },
+      "date": "2026-10-28",
+      "time": "11:00",
+      "city": "Amritsar",
+      "createdAt": "2026-10-27T05:21:50.288Z",
+      "status": "Confirmed",
+      "notification": {
+        "recipient": "worksmith.help@gmail.com",
+        "delivered": false,
+        "message": "New booking request from Nesar for 2026-10-28 at 11:00.",
+        "createdAt": "2026-10-27T05:21:50.288Z"
+      },
+      "statusUpdatedAt": "2026-10-27T05:35:44.060Z"
+    },
+    {
+      "id": "9ac5fd84-d838-4d74-b8b9-d965e455846f",
+      "userId": "a61843f0-046b-42cc-be8e-1410fe660096",
+      "customerName": "Nesar",
+      "customerEmail": "nesar.minein@gmail.com",
+      "customerPhone": "",
+      "professional": {
+        "workerId": "af772223-3bc4-40c4-9fef-1e0c5d33fdef",
+        "workerEmail": "worksmith.help@gmail.com",
+        "name": "WorkSmith",
+        "category": "WorkSmith",
+        "specialty": "Electrician",
+        "phone": "9779711530",
+        "address": ""
+      },
+      "date": "2026-10-28",
+      "time": "12:00",
+      "city": "Amritsar",
+      "serviceAddress": "Amritsar",
+      "createdAt": "2026-10-27T12:45:46.525Z",
+      "status": "pending",
+      "notification": {
+        "recipient": "worksmith.help@gmail.com",
+        "delivered": false,
+        "message": "New booking request from Nesar for 2026-10-28 at 12:00.",
+        "createdAt": "2026-10-27T12:45:46.525Z"
+      },
+      "tokenHash": "c03e1ee8c126c35d7edd7318b2eca66d4c2dcb998e8f9657caa066d84fe30c7b",
+      "tokenExpiresAt": "2026-11-03T12:45:46.525Z"
+    },
+    {
+      "id": "5299d23e-9f23-4736-87c0-f94309aff6e3",
+      "userId": "a61843f0-046b-42cc-be8e-1410fe660096",
+      "customerName": "Nesar",
+      "customerEmail": "nesar.minein@gmail.com",
+      "customerPhone": "",
+      "professional": {
+        "workerId": "f15c0532-da9a-4911-91bc-fb113ae9b188",
+        "workerEmail": "person-2@gmail.com",
+        "name": "Person-2",
+        "category": "WorkSmith",
+        "specialty": "Electrician",
+        "phone": "1234567890",
+        "address": ""
+      },
+      "date": "2026-10-28",
+      "time": "12:00",
+      "city": "Amritsar",
+      "serviceAddress": "Amritsar",
+      "createdAt": "2026-10-27T12:46:03.946Z",
+      "status": "pending",
+      "notification": {
+        "recipient": "person-2@gmail.com",
+        "delivered": false,
+        "message": "New booking request from Nesar for 2026-10-28 at 12:00.",
+        "createdAt": "2026-10-27T12:46:03.946Z"
+      },
+      "tokenHash": "c0fd8ec4928790d81cc97eec327a4d21c23af682f52f3fcf24a9b78bb656aa29",
+      "tokenExpiresAt": "2026-11-03T12:46:03.946Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "547078d1-1473-4c5d-9607-bfec328a3d9f",
+      "userId": "af772223-3bc4-40c4-9fef-1e0c5d33fdef",
+      "bookingId": "9ac5fd84-d838-4d74-b8b9-d965e455846f",
+      "type": "booking_request",
+      "message": "New booking request from Nesar for 2026-10-28 at 12:00.",
+      "createdAt": "2026-10-27T12:45:46.526Z",
+      "readAt": null,
+      "dedupeKey": "booking:9ac5fd84-d838-4d74-b8b9-d965e455846f:created:af772223-3bc4-40c4-9fef-1e0c5d33fdef"
+    },
+    {
+      "id": "660d185e-2652-4df7-8eea-1f9e140e1490",
+      "userId": "f15c0532-da9a-4911-91bc-fb113ae9b188",
+      "bookingId": "5299d23e-9f23-4736-87c0-f94309aff6e3",
+      "type": "booking_request",
+      "message": "New booking request from Nesar for 2026-10-28 at 12:00.",
+      "createdAt": "2026-10-27T12:46:03.946Z",
+      "readAt": null,
+      "dedupeKey": "booking:5299d23e-9f23-4736-87c0-f94309aff6e3:created:f15c0532-da9a-4911-91bc-fb113ae9b188"
+    }
+  ],
+  "messages": []
+}
